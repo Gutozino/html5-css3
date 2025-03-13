@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagens/favicon (2).ico" type="image/x-icon">
+    <title>Videos</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.89);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;            
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+            gap: 15px; /* Espaço entre os itens */
+            justify-content: center; /* Centraliza os itens */
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h1>Videos do Prof'guanabara</h1>
+    <a href="aulahtml.html" target="_self" rel="next">
+       <img src="./imagens/thumb-html.png" alt="thumb-html">
+       </a>
+    <a href="aulajs.html" target="_self" rel="next">
+        <img src="./imagens/thumb-js.png" alt="thumb-js">
+       <br>
+    </a>
+    <a href="aulahardware.html" target="_self" rel="next">
+        <img src="./imagens/thumb-hardware.png" alt="thumb-hardware">
+    </a> 
+    <a href="aulapy.html" target="_self" rel="next">
+        <img src="./imagens/thumb-python.png" alt="thumb-python">
+    </a> 
+    </div> 
+</body>
+</html>
