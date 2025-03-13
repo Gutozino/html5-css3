@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *{
     margin: 0;
     padding: 0;
@@ -25,3 +26,6 @@ div#astro{
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
 }
+
+
+
