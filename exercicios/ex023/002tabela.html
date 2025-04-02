@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+       body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       
+       table{
+        width: 500px;
+        border-collapse: collapse;
+       }
+
+       td, th{
+          border: 1px solid black;
+          padding: 10px;
+       }
+
+       thead, tfoot{
+        background-color: gray;
+        color: white;
+       }
+
+       .num{
+        text-align: right;
+       }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+     ANATOMIA PARA TABELAS GRANDES
+     TABLE
+       THEAD
+         TR, TD, TH
+       TBODY
+         TR, TD, TH
+       TFOOT
+         TR, TD, TH
+    -->
+         <table>
+            <thead> <!-- Cabeça da tabela-->
+                <tr>
+                    <th>Posiçao</th>
+                    <th>Estado</th>
+                    <th>Populaçao</th>
+                    
+                </tr>
+            </thead>
+
+            <tbody> <!-- Corpo da tabela-->
+                    <tr>
+                        <th>1</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/São_Paulo_(estado)" target="_blank" rel="next">São Paulo</a></td>
+                        <td class="num">45 973 194</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Minas_Gerais" target="_blank" rel="next">Minas Gerais</a></td>
+                        <td class="num">21 322 691</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro_(estado)" target="_blank" rel="next">Rio de Janeiro</a></td>
+                        <td class="num">17 219 679</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Bahia" target="_blank" rel="next">Bahia</a></td>
+                        <td class="num">14 850 513</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Paraná" target="_blank" rel="next">Paraná</a></td>
+                        <td class="num">11 824 665</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul" target="_blank" rel="next">Rio Grande do Sul</a></td>
+                        <td class="num">11 229 915</td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Pernambuco" target="_blank" rel="next">Pernambuco</a></td>
+                        <td class="num">9 539 029</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Ceará" target="_blank" rel="next">Ceará</a></td>
+                        <td class="num">9 233 656</td>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Pará" target="_blank" rel="next">Pará</a></td>
+                        <td class="num">8 664 306</td>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Santa_Catarina" target="_blank" rel="next">Santa Catarina</a></td>
+                        <td class="num">8 058 441</td>
+                    </tr>
+                    <tr>
+                        <th>11</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Goiás" target="_blank" rel="next">Goiás</a></td>
+                        <td class="num">7 350 483</td>
+                    </tr>
+                    <tr>
+                        <th>12</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Maranhão" target="_blank" rel="next">Maranhão</a></td>
+                        <td class="num">7 010 960</td>
+                    </tr>
+                    <tr>
+                        <th>13</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Amazonas" target="_blank" rel="next">Amazonas</a></td>
+                        <td class="num">4 281 209</td>
+                    </tr>
+                    <tr>
+                        <th>14</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Paraíba" target="_blank" rel="next">Paraíba</a></td>
+                        <td class="num">4 145 040</td>
+                    </tr>
+                    <tr>
+                        <th>15</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Espírito_Santo_(estado)" target="_blank" rel="next">Espírito Santo</a></td>
+                        <td class="num">4 102 129</td>
+                    </tr>
+                    <tr>
+                        <th>16</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Mato_Grosso" target="_blank" rel="next">Mato Grosso</a></td>
+                        <td class="num">3 836 399</td>
+                    </tr>
+                    <tr>
+                        <th>17</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Mato_Grosso" target="_blank" rel="num">Rio Grande Do Norte</a></td>
+                        <td class="num">3 446 071</td>
+                    </tr>
+                    <tr>
+                        <th>18</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Piauí" target="_blank" rel="next">Piauí</a></td>
+                        <td class="num">3 375 646</td>
+                    </tr>
+                    <tr>
+                        <th>19</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Alagoas" target="_blank" rel="next">Alagoas</a></td>
+                        <td class="num">3 220 104</td>
+                    </tr>
+                    <tr>
+                        <th>20</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)" target="_blank" rel="next">Distrito Federa</a></td>
+                        <td class="num">2 982 818</td>
+                    </tr>
+                    <tr>
+                        <th>21</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul" target="_blank" rel="next">Mato Grosso Do Sul</a></td>
+                        <td class="num">2 901 895</td>
+                    </tr>
+                    <tr>
+                        <th>22</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Sergipe" target="_blank" rel="next">Sergipe</a></td>
+                        <td class="num">2 291 077</td>
+                    </tr>
+                    <tr>
+                        <th>23</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Rondônia" target="_blank" rel="next">Rondônia</a></td>
+                        <td class="num">1 746 227</td>
+                    </tr>
+                    <tr>
+                        <th>24</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Tocantins" target="_blank" rel="next">Tocantins</a></td>
+                        <td class="num">1 577 342</td>
+                    </tr>
+                    <tr>
+                        <th>25</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Acre" target="_blank" rel="next">Acre</a></td>
+                        <td class="num">880 631</td>
+                    </tr>
+                    <tr>
+                        <th>26</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Amapá" target="_blank" rel="next">Amapá</a></td>
+                        <td class="num">802 837</td>
+                    </tr>
+                    <tr>
+                        <th>27</th>
+                        <td><a href="https://pt.wikipedia.org/wiki/Roraima" target="_blank" rel="next">Roraima</a></td>
+                        <td class="num">716 793</td>
+                    </tr>
+            </tbody>
+
+            <tfoot> <!-- rodape da tabela-->
+                       <tr>
+                        <th></th>
+                        <th>Total de  Habitantes</th>
+                        <td>212 583 750</td>
+                       </tr>
+            </tfoot>
+         </table>
+</body>
+</html>
