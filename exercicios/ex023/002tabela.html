@@ -12,6 +12,7 @@
        table{
         width: 600px;
         border-collapse: collapse;
+        position: relative;
        }
 
        caption{
@@ -27,13 +28,37 @@
           border: 1px solid black;
           padding: 10px;
        }
-
+        
        thead, tfoot{
         background-color: #383838;
         color: white;
        }
+       thead > tr > th{
+        position: sticky;
+        top:-1px;
+        background-color: #383838;
+       }
 
-       .num{
+       tbody > tr:nth-child(even){ /* 2n-1 */
+        background-color: white;
+       }
+
+       tbody > tr:nth-child(odd){ /* 2n */
+        background-color: lightgray;
+       }
+
+       tbody > tr > td > a{
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+       }
+
+       tbody > tr > td > a:hover{
+        color: rgba(0, 0, 0, 0.603);
+        text-decoration: underline;
+       }
+
+       td.num{
         text-align: right;
        }
     </style>
