@@ -44,3 +44,9 @@
  <a href="https://gutozino.github.io/html5-css3/exercicios/ex020/index.html">Executar o exercicio 020</a>
 
  <a href="https://gutozino.github.io/html5-css3/exercicios/ex021/index.html">Executar o exercicio 021</a>
+
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex022/index.html">Executar o exercicio 022</a>
+
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex023/index.html">Executar o exercicio 023</a>
+
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex024/index.html">Executar o exercicio 024</a>
