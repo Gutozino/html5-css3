@@ -19,7 +19,7 @@
 
  <a href="https://gutozino.github.io/html5-css3/exercicios/ex008/index.html">Executar o exercicio 008</a>
 
- <a href="https://gutozino.github.io/html5-css3/exercicios/ex008b/index.html">Executar o exercicio 008</a>
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex008b/index.html">Executar o exercicio 008b</a>
 
  <a href="https://gutozino.github.io/html5-css3/exercicios/ex009/index.html">Executar o exercicio 009</a>
 
