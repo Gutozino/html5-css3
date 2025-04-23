@@ -37,18 +37,20 @@
 
  <a href="https://gutozino.github.io/html5-css3/exercicios/ex016/index.html">Executar o exercicio 016</a>
 
- <a href="https://gutozino.github.io/html5-css3/exercicios/ex017/index.html">Executar o exercicio 017</a>
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex017/font02.html">Executar o exercicio 017</a>
 
- <a href="https://gutozino.github.io/html5-css3/exercicios/ex018/index.html">Executar o exercicio 018</a>
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex018/font02.html">Executar o exercicio 018</a>
 
- <a href="https://gutozino.github.io/html5-css3/exercicios/ex019/index.html">Executar o exercicio 019</a>
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex019/seletor01.html">Executar o exercicio 019</a>
 
- <a href="https://gutozino.github.io/html5-css3/exercicios/ex020/index.html">Executar o exercicio 020</a>
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex020/pseudoclasse.html">Executar o exercicio 020</a>
 
- <a href="https://gutozino.github.io/html5-css3/exercicios/ex021/index.html">Executar o exercicio 021</a>
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex021/caixa03.html">Executar o exercicio 021</a>
 
- <a href="https://gutozino.github.io/html5-css3/exercicios/ex022/index.html">Executar o exercicio 022</a>
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex022/fundo007.html">Executar o exercicio 022</a>
 
- <a href="https://gutozino.github.io/html5-css3/exercicios/ex023/index.html">Executar o exercicio 023</a>
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex023/006tabela.html">Executar o exercicio 023</a>
 
- <a href="https://gutozino.github.io/html5-css3/exercicios/ex024/index.html">Executar o exercicio 024</a>
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex024/inframe006.html">Executar o exercicio 024</a>
+
+ <a href="https://gutozino.github.io/html5-css3/exercicios/ex025/form003.html">Executar o exercicio 025</a>
