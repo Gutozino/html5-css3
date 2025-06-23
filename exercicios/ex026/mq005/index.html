@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
      <h1>Layout responsivo para todos os dispositivos</h1>
      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
@@ -48,6 +49,14 @@ Essa fato se dá pois ao usar Media Query você estará levando em consideraçã
             } else{
                 itens.style.display = 'block'
             }
+        }
+
+        function mudouTamanho(){
+                if (window.innerWidth >= 922) {
+                    itens.style.display = 'block'
+                } else {
+                    itens.style.display = 'none'
+                }
         }
     </script>
 </body>

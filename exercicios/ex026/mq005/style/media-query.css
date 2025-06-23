@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Todas as midias */
+
+/* Typical Deivice Breakpoints
+Pequenas telas: ate 600px
+Celular: 600px ate 768px
+Tablet: 768px ate 922px
+Desktop: 922px ate 1200px
+Grandes telas: acima de 1200px 
+*/
+
+@media screen and (min-width: 922px){ /* Regulagem para desktop */
+  i#burguer{
+    display: none;
+  }
+  
+  menu{
+    display: block;
+    text-align: center;
+  }
+
+  menu > ul > li{
+    display: inline-block; /* Faz um ficar do lado do outro */
+    padding-left: 5px;
+  }
+
+  main{
+   width: 922px;
+  }
+}
